@@ -1,4 +1,5 @@
-# ignore compressed stylesheet
+local_settings.py
+
 static/css/style.css
 
 db.sqlite3
