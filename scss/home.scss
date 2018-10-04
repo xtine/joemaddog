@@ -1,7 +1,12 @@
 .home {
   font-family: 'PT Serif', serif;
   line-height: 2em;
+  padding: 75px 0;
   text-align: center;
+
+  h2 {
+    margin-top: 0;
+  }
 
   .title {
     font-size: 1.6em;

@@ -21,6 +21,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bio',
     'blog',
+    'django_summernote',
 ]
 
 MIDDLEWARE = [
@@ -74,6 +75,19 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+SUMMERNOTE_CONFIG = {
+    'disable_attachment': True,
+    'toolbar': [
+        ['formatting', ['style']],
+        ['fontstyle', ['bold', 'italic', 'underline']],
+        ['fontplacement', ['strikethrough', 'superscript', 'subscript']],
+        ['list', ['ul', 'ol', 'paragraph']],
+    ],
+    'summernote': {
+        'height': '600',
+    }
+}
 
 
 LANGUAGE_CODE = 'en-us'

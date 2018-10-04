@@ -1,2 +1,6 @@
 # ignore compressed stylesheet
 static/css/style.css
+
+db.sqlite3
+
+media/
