@@ -2,6 +2,8 @@ local_settings.py
 
 static/css/style.css
 
+staticfiles/
+
 db.sqlite3
 
 media/
