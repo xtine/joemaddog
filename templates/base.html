@@ -1,0 +1,62 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Joe Mad Dog</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+  <header>
+    <h1>Joe Mad Dog</h1>
+
+
+    <nav class="menu">
+      <ul>
+        <li>
+          <a href="/">home</a>
+        </li>
+        <li>
+          <a href="">bio</a>
+        </li>
+        <li>
+          <a href="">blog</a>
+        </li>
+        <li>
+          <a href="">contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="main">
+  {% block content %}{% endblock content %}
+  </div>
+
+  <footer>
+
+    <ul class="social">
+      <li>
+        <a href="https://www.twitter.com/skiprojoe" target="_blank">
+          <img src="{% static 'icons/tw.svg' %}">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/skiprojoe" target="_blank">
+          <img src="{% static 'icons/ig.svg' %}">
+        </a>
+      </li>
+    </ul>
+
+  </footer>
+
+</body>
+
+</html>
