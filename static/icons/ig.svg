@@ -1,1 +1,17 @@
-<?xml version="1.0" ?><svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style></defs><title/><g data-name="Layer 6" id="Layer_6"><path class="cls-1" d="M50.39,17.46V46.54a4.64,4.64,0,0,1-4.62,4.63H17.18a4.64,4.64,0,0,1-4.62-4.62V17.46a4.64,4.64,0,0,1,4.62-4.63H45.77"/><circle cx="50.44" cy="14.13" r="1"/><circle cx="39.03" cy="25" r="1"/><path class="cls-1" d="M23.77,20.32a3.75,3.75,0,0,0-3.47,3.74V39.94a3.77,3.77,0,0,0,3.76,3.76h8.59"/><path class="cls-1" d="M32.65,43.7h7.29a3.77,3.77,0,0,0,3.76-3.76V24.06a3.77,3.77,0,0,0-3.76-3.76H24.06a1.37,1.37,0,0,0-.29,0"/><path class="cls-1" d="M34,26.74A5.64,5.64,0,1,0,37.64,32"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="42px" viewBox="0 0 41 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>ig</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ig" transform="translate(1.000000, 1.000000)">
+            <path d="M38.39,5.46 L38.39,34.54 C38.384526,37.0909084 36.3208906,39.1590106 33.77,39.17 L5.18,39.17 C2.63299597,39.159045 0.570955008,37.097004 0.56,34.55 L0.56,5.46 C0.565473988,2.9090916 2.6291094,0.840989447 5.18,0.83 L33.77,0.83" id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="38.44" cy="2.13" r="1"></circle>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="27.03" cy="13" r="1"></circle>
+            <path d="M11.77,8.32 C9.81285141,8.46654281 8.29975509,10.0973728 8.3,12.06 L8.3,27.94 C8.30549489,30.0143103 9.98568966,31.6945051 12.06,31.7 L20.65,31.7" id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M20.65,31.7 L27.94,31.7 C30.0143103,31.6945051 31.6945051,30.0143103 31.7,27.94 L31.7,12.06 C31.6945051,9.98568966 30.0143103,8.30549489 27.94,8.3 L12.06,8.3 C11.9636056,8.28974004 11.8663944,8.28974004 11.77,8.3" id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M22,14.74 C19.6907162,13.864198 17.0802305,14.5927607 15.5582288,16.5378395 C14.036227,18.4829183 13.9567947,21.1920012 15.3622174,23.2229142 C16.7676401,25.2538272 19.3309539,26.1340896 21.6875847,25.3950956 C24.0442155,24.6561017 25.645906,22.4697744 25.64,20" id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

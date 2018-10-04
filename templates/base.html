@@ -16,12 +16,12 @@
 
 <body>
   <header>
-    <h1>Joe Mad Dog</h1>
+    <h1><a href="{% url 'home' %}">Joe Mad Dog</a></h1>
 
     <nav class="menu">
       <ul>
         <li>
-          <a href="/">home</a>
+          <a href="{% url 'home' %}">home</a>
         </li>
         <li>
           <a href="{% url 'bio' %}">bio</a>

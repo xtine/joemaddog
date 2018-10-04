@@ -5,6 +5,6 @@
 
 ## Front End Compilation
 ```
-cd static/css
-sass --watch scss/style.scss css/style.css --no-source-map --style compressed
+cd scss
+sass --watch style.scss ../static/css/style.css --no-source-map --style compressed
 ```

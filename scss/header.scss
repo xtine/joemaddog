@@ -2,7 +2,6 @@ header {
   background: url('../img/background-tetons.jpg') no-repeat;
   background-size: cover;
   -webkit-mask-image: -webkit-gradient(linear, left 90%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-  border: 1px solid transparent;
   padding: 35px;
   height: 350px;
 
@@ -15,7 +14,22 @@ header {
     vertical-align: top;
     font-size: 1.5em;
     margin: 0;
+    transition: opacity 500ms ease-in-out,
+      width 500ms ease-in-out,
+      height 500ms ease-in-out;
     float: left;
+
+    a {
+      width: inherit;
+      height: inherit;
+      display: block;
+    }
+
+    &:hover {
+      width: 325px;
+      height: 300px;
+      opacity: 0.5;
+    }
   }
 
   nav {
@@ -63,7 +77,6 @@ header {
     }
   }
 
-
   @media (max-width: 684px) {
     height: auto;
 
@@ -109,7 +122,4 @@ header {
       }
     }
   }
-  @media (max-width: 382px) {
-  }
-
 }

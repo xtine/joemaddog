@@ -11,5 +11,5 @@ urlpatterns = [
     path('blog/', blog_views.blog, name='blog'),
     path('contact/', TemplateView.as_view(template_name='contact.html'),
          name='contact'),
-    path('', TemplateView.as_view(template_name='index.html')),
+    path('', TemplateView.as_view(template_name='index.html'), name='home'),
 ]
