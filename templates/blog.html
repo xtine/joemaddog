@@ -1,7 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <section class="bio">
-    blog
+  <section class="blog">
+
+    {% for post in posts %}
+      <article>
+        <h2>{{ post.title }}</h2>
+        <div class="body">
+          {{ post.body|safe }}
+        </div>
+        <div class="date">Posted on {{ post.date_created|date:'F j, Y' }}</div>
+      </article>
+    {% endfor %}
+
   </section>
 {% endblock content %}
