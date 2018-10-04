@@ -1,0 +1,23 @@
+.home {
+  font-family: 'PT Serif', serif;
+  line-height: 2em;
+  text-align: center;
+
+  .title {
+    font-size: 1.6em;
+    line-height: 1em;
+    padding-bottom: 30px;
+  }
+
+  .location {
+    font-size: 1.5em;
+  }
+
+  @media (max-width: 684px) {
+    line-height: normal;
+
+    h2 {
+      margin-top: 0;
+    }
+  }
+}
