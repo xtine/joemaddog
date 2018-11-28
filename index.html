@@ -1,43 +1,29 @@
-{% load static %}
 <!doctype html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Joe Mad Dog - {% block title %}{% endblock title %}</title>
+  <title>Joe Mad Dog</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i" rel="stylesheet">
-  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header>
-    <h1><a href="{% url 'home' %}">Joe Mad Dog</a></h1>
-
-    <nav class="menu">
-      <ul>
-        <li>
-          <a href="{% url 'home' %}">home</a>
-        </li>
-        <li>
-          <a href="{% url 'bio' %}">bio</a>
-        </li>
-        <li>
-          <a href="{% url 'blog' %}">blog</a>
-        </li>
-        <li>
-          <a href="{% url 'contact' %}">contact</a>
-        </li>
-      </ul>
-    </nav>
+    <h1>Joe Mad Dog</h1>
   </header>
 
   <div class="content">
-  {% block content %}{% endblock content %}
+    <section class="home">
+      <h2>Joe <em>'Mad Dog'</em> Stevens</h2>
+      <div class="title">JH Evolution Head Coach / Ski Instructor</div>
+      <div class="location">Jackson Hole, WY</div>
+    </section>
   </div>
 
   <footer>
@@ -45,12 +31,12 @@
     <ul class="social">
       <li>
         <a href="https://www.twitter.com/skiprojoe" target="_blank">
-          <img src="{% static 'icons/tw.svg' %}">
+          <img src="icons/tw.svg">
         </a>
       </li>
       <li>
         <a href="https://www.instagram.com/skiprojoe" target="_blank">
-          <img src="{% static 'icons/ig.svg' %}">
+          <img src="icons/ig.svg">
         </a>
       </li>
     </ul>
